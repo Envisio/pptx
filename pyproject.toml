@@ -1,0 +1,12 @@
+[project]
+name = "pptx-codec"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = ["python-pptx==1.0.2"]
+
+[project.scripts]
+pptx-codec = "pptx_codec.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
